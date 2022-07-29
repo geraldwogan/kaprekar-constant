@@ -20,5 +20,14 @@ def get_nums():
 
     return int(num), int(reverse_num)
 
+def subtraction_recursion(num, reverse_num):
+    result = num - reverse_num
+    
+    if result == 495:
+        print(f"success! {result} found.")
+    else:
+        print(f"failure. result is {result}.")
+
 num, reverse_num = get_nums()
 print(num, reverse_num)
+subtraction_recursion(num, reverse_num)
