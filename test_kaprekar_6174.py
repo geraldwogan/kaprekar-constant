@@ -1,0 +1,1 @@
+import kaprekar_6174 as kap
