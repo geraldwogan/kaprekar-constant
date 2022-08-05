@@ -8,3 +8,6 @@ def test_sort_and_reverse():
     num, reversed_num = sort_and_reverse('869')
     assert num == '986'
     assert reversed_num == '689'
+
+def test_get_nums_recurse():
+    assert get_nums_recurse('954') == 495
