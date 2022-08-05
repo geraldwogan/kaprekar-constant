@@ -31,10 +31,10 @@ def get_nums_recurse(num):
 
     if result == 495:
         print(f"success! {result} found.")
-        return
+        return result
     else:
         print(f"failure. result is {result}.")
-        get_nums_recurse(str(result))
+        return get_nums_recurse(str(result))
 
 num = get_3_digit_non_repeating_num()
 
