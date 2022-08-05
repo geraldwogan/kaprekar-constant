@@ -11,3 +11,6 @@ def test_sort_and_reverse():
 
 def test_get_nums_recurse():
     assert get_nums_recurse('954') == 495
+
+def test_get_nums_recurse_2():
+    assert get_nums_recurse('319') == 495
