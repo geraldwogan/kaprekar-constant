@@ -9,3 +9,9 @@ def test_sort_and_reverse():
     num, reversed_num = sort_and_reverse('8692')
     assert num == '9862'
     assert reversed_num == '2689'
+
+def test_get_nums_recurse():
+    assert get_nums_recurse('8532') == 6174
+
+def test_get_nums_recurse_2():
+    assert get_nums_recurse('9862') == 6174
